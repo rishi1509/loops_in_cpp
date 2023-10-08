@@ -1,5 +1,118 @@
+/*22070123095
+Exp-6(a)*/
+
+/*
+Part 1
+Calculator program using Switch-Case
+*/
+#include<iostream>
+using namespace std;
+int main()
+{
+    float i,r;
+    int calc = 4;
+
+    cout<<"Enter the first Number :";
+    cin>>i;
+
+    cout<<"Enter the second Number :";
+    cin>>r;
+
+    cout<<"Enter the operation to execute :"<<endl;
+    cout<<"1.Sum"<<endl;
+    cout<<"2.Substraction"<<endl;
+    cout<<"3.Multiplication"<<endl;
+    cout<<"4.Division"<<endl;
+    cin>>calc;
+
+    switch(calc)
+    {
+        case 1:
+        
+            cout<<"The sum is :"<<i+r<<endl;
+            break;
+        
+
+        case 2:
+        
+            cout<<"The difference is :"<<i-r<<endl;
+            break;
+        
+
+        case 3:
+        
+            cout<<"The product is :"<<i*r<<endl;
+            break;
+        
+
+        case 4:
+        
+            cout<<"The quotient is :"<<i/r<<endl;
+            break;
+        
+
+        default:
+        {
+            cout<<"Wrong Input";
+            break;
+        }
+    
+
+}
+
+/*OUTPUT
+Enter the first Number :5
+Enter the second Number :5
+Enter the operation to execute :
+1.Sum
+2.Substraction
+3.Multiplication
+4.Division
+1
+The sum is :10
+*/
+
+
+/*Part(b)
+Display all 7 days, else default is wrong input:Default Condition*/
+int day;
+cout<<"Enter a day number:"<<endl;
+cin>>day;
+switch(day)
+{
+    case 1:
+    cout<<"Monday:"<<endl;
+    break;
+    case 2:
+    cout<<"Tuesday:"<<endl;
+    break;
+    case 3:
+    cout<<"Wednesday:"<<endl;
+    break;
+    case 4:
+    cout<<"Thurday:"<<endl;
+    break;
+    case 5:
+    cout<<"Friday:"<<endl;
+    break;
+    case 6:
+    cout<<"Saturday:"<<endl;
+    break;
+    case 7:
+    cout<<"Sunday:"<<endl;
+     default:
+        {
+            cout<<"Wrong Input";
+            break;
+        }
+
+}
+/*Enter a day number:
+1
+Monday:*/
+
 /*PRN: 22070123095
-Experiment-no: 6(a)*/
+Experiment-no: 6(c)*/
 
 #include<iostream>
 using namespace std;
@@ -69,7 +182,7 @@ int main()
 */
 
 /*PRN: 22070123095
-Experiment-no: 6(b)*/
+Experiment-no: 6(d)*/
 #include<iostream>
 using namespace std;
 
@@ -99,7 +212,7 @@ hello world
 */
 
 /*PRN: 22070123095
-Experiment-no: 6(c)*/
+Experiment-no: 6(e)*/
 
 #include<iostream>
 using namespace std;
